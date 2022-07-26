@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26177036289019C100670EEA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26177034289019C100670EEA /* DetailViewController.swift */; };
+		26177037289019C100670EEA /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26177035289019C100670EEA /* DetailViewController.xib */; };
+		261E7035288F24DB003C4205 /* DriversTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E7034288F24DB003C4205 /* DriversTableViewModel.swift */; };
 		268DA172288827A100A7F853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DA171288827A100A7F853 /* AppDelegate.swift */; };
 		268DA174288827A100A7F853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DA173288827A100A7F853 /* SceneDelegate.swift */; };
-		268DA176288827A100A7F853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DA175288827A100A7F853 /* ViewController.swift */; };
-		268DA179288827A100A7F853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268DA177288827A100A7F853 /* Main.storyboard */; };
 		268DA17B288827A400A7F853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268DA17A288827A400A7F853 /* Assets.xcassets */; };
 		268DA17E288827A400A7F853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268DA17C288827A400A7F853 /* LaunchScreen.storyboard */; };
+		268DA1892888284D00A7F853 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DA1872888284D00A7F853 /* SplashController.swift */; };
+		268DA18A2888284D00A7F853 /* Splash.xib in Resources */ = {isa = PBXBuildFile; fileRef = 268DA1882888284D00A7F853 /* Splash.xib */; };
+		268DA1912888371A00A7F853 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DA1902888371A00A7F853 /* SplashViewModel.swift */; };
+		268DA19928883CDB00A7F853 /* DriversTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268DA19828883CDB00A7F853 /* DriversTableController.swift */; };
+		26DD5D36288F198D000DF4AE /* DataDriversModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD5D35288F198D000DF4AE /* DataDriversModel.swift */; };
+		26DD5D38288F19E2000DF4AE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD5D37288F19E2000DF4AE /* NetworkManager.swift */; };
+		26F10B562888BF8F00B341AD /* DriversCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F10B542888BF8F00B341AD /* DriversCell.swift */; };
+		26F10B572888BF8F00B341AD /* DriversCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F10B552888BF8F00B341AD /* DriversCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26177034289019C100670EEA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		26177035289019C100670EEA /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		261E7034288F24DB003C4205 /* DriversTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversTableViewModel.swift; sourceTree = "<group>"; };
 		268DA16E288827A100A7F853 /* formulaOneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = formulaOneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268DA171288827A100A7F853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		268DA173288827A100A7F853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		268DA175288827A100A7F853 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		268DA178288827A100A7F853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		268DA17A288827A400A7F853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		268DA17D288827A400A7F853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		268DA17F288827A400A7F853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268DA1872888284D00A7F853 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		268DA1882888284D00A7F853 /* Splash.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Splash.xib; sourceTree = "<group>"; };
+		268DA1902888371A00A7F853 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		268DA19828883CDB00A7F853 /* DriversTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversTableController.swift; sourceTree = "<group>"; };
+		26DD5D35288F198D000DF4AE /* DataDriversModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDriversModel.swift; sourceTree = "<group>"; };
+		26DD5D37288F19E2000DF4AE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		26F10B542888BF8F00B341AD /* DriversCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversCell.swift; sourceTree = "<group>"; };
+		26F10B552888BF8F00B341AD /* DriversCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DriversCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261770302890196300670EEA /* DriverDetail */ = {
+			isa = PBXGroup;
+			children = (
+				261770312890198B00670EEA /* Views */,
+				261770322890199300670EEA /* Controllers */,
+				261770332890199B00670EEA /* ViewModels */,
+			);
+			path = DriverDetail;
+			sourceTree = "<group>";
+		};
+		261770312890198B00670EEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26177035289019C100670EEA /* DetailViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		261770322890199300670EEA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				26177034289019C100670EEA /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		261770332890199B00670EEA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		261E7036288F3DAF003C4205 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				26F10B5A2888C22E00B341AD /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		268DA165288827A100A7F853 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +115,135 @@
 		268DA170288827A100A7F853 /* formulaOneApp */ = {
 			isa = PBXGroup;
 			children = (
-				268DA171288827A100A7F853 /* AppDelegate.swift */,
-				268DA173288827A100A7F853 /* SceneDelegate.swift */,
-				268DA175288827A100A7F853 /* ViewController.swift */,
-				268DA177288827A100A7F853 /* Main.storyboard */,
-				268DA17A288827A400A7F853 /* Assets.xcassets */,
-				268DA17C288827A400A7F853 /* LaunchScreen.storyboard */,
 				268DA17F288827A400A7F853 /* Info.plist */,
+				26F10B5B2888C50900B341AD /* Network */,
+				268DA186288827C800A7F853 /* Resources */,
+				261E7036288F3DAF003C4205 /* Domain */,
+				268DA185288827B300A7F853 /* App */,
+				268DA18B2888285400A7F853 /* UI */,
 			);
 			path = formulaOneApp;
+			sourceTree = "<group>";
+		};
+		268DA185288827B300A7F853 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				268DA171288827A100A7F853 /* AppDelegate.swift */,
+				268DA173288827A100A7F853 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		268DA186288827C800A7F853 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				268DA17A288827A400A7F853 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		268DA18B2888285400A7F853 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				268DA18C2888287900A7F853 /* Splash */,
+				268DA19228883C3100A7F853 /* DriversTable */,
+				261770302890196300670EEA /* DriverDetail */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		268DA18C2888287900A7F853 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				268DA18D2888369700A7F853 /* Views */,
+				268DA18E2888369D00A7F853 /* Controllers */,
+				268DA18F288836A700A7F853 /* ViewModels */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		268DA18D2888369700A7F853 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				268DA17C288827A400A7F853 /* LaunchScreen.storyboard */,
+				268DA1882888284D00A7F853 /* Splash.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		268DA18E2888369D00A7F853 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				268DA1872888284D00A7F853 /* SplashController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		268DA18F288836A700A7F853 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				268DA1902888371A00A7F853 /* SplashViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		268DA19228883C3100A7F853 /* DriversTable */ = {
+			isa = PBXGroup;
+			children = (
+				26F10B532888BF6300B341AD /* Cells */,
+				268DA19328883C4D00A7F853 /* Views */,
+				268DA19428883C5300A7F853 /* Controllers */,
+				268DA19528883C6200A7F853 /* ViewModels */,
+			);
+			path = DriversTable;
+			sourceTree = "<group>";
+		};
+		268DA19328883C4D00A7F853 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		268DA19428883C5300A7F853 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				268DA19828883CDB00A7F853 /* DriversTableController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		268DA19528883C6200A7F853 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				261E7034288F24DB003C4205 /* DriversTableViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		26F10B532888BF6300B341AD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				26F10B542888BF8F00B341AD /* DriversCell.swift */,
+				26F10B552888BF8F00B341AD /* DriversCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		26F10B5A2888C22E00B341AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26DD5D35288F198D000DF4AE /* DataDriversModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26F10B5B2888C50900B341AD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				26DD5D37288F19E2000DF4AE /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				268DA17E288827A400A7F853 /* LaunchScreen.storyboard in Resources */,
+				268DA18A2888284D00A7F853 /* Splash.xib in Resources */,
+				26177037289019C100670EEA /* DetailViewController.xib in Resources */,
 				268DA17B288827A400A7F853 /* Assets.xcassets in Resources */,
-				268DA179288827A100A7F853 /* Main.storyboard in Resources */,
+				26F10B572888BF8F00B341AD /* DriversCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +319,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				268DA176288827A100A7F853 /* ViewController.swift in Sources */,
+				26DD5D36288F198D000DF4AE /* DataDriversModel.swift in Sources */,
 				268DA172288827A100A7F853 /* AppDelegate.swift in Sources */,
 				268DA174288827A100A7F853 /* SceneDelegate.swift in Sources */,
+				268DA1912888371A00A7F853 /* SplashViewModel.swift in Sources */,
+				26DD5D38288F19E2000DF4AE /* NetworkManager.swift in Sources */,
+				26F10B562888BF8F00B341AD /* DriversCell.swift in Sources */,
+				268DA1892888284D00A7F853 /* SplashController.swift in Sources */,
+				26177036289019C100670EEA /* DetailViewController.swift in Sources */,
+				261E7035288F24DB003C4205 /* DriversTableViewModel.swift in Sources */,
+				268DA19928883CDB00A7F853 /* DriversTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		268DA177288827A100A7F853 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				268DA178288827A100A7F853 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		268DA17C288827A400A7F853 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +472,6 @@
 				INFOPLIST_FILE = formulaOneApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +483,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +499,6 @@
 				INFOPLIST_FILE = formulaOneApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
