@@ -7,32 +7,40 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+protocol DetailViewControllerProtocol: AnyObject {
+    func update(model: DriversModel?)
+    func update(image: String)
+}
 
+class DetailViewController: UIViewController {
+    
     @IBOutlet weak var driverImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var nationalityLabel: UILabel!
     @IBOutlet weak var birthLabel: UILabel!
     
-    var driversData: DriversModel?
+    var viewModel: DetailViewModelProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        update(image: "")
-        update()
+        driverImage.layer.cornerRadius = driverImage.frame.size.width / 2
+        driverImage.clipsToBounds = true
+        viewModel?.onViewsLoaded()
     }
     
-    private func update(image: String) {
+}
+
+extension DetailViewController: DetailViewControllerProtocol {
+    func update(image: String) {
         driverImage.image = UIImage(named: image)
     }
     
-    private func update(){
-        if let driversData = driversData {
-            nameLabel.text = "\(driversData.givenName) \(driversData.familyName)"
-            nationalityLabel.text = driversData.nationality
-            birthLabel.text = driversData.dateOfBirth
+    func update(model: DriversModel?){
+        if let model = model {
+            driverImage.image = UIImage(named: model.familyName)
+            nameLabel.text = "\(model.givenName) \(model.familyName)"
+            nationalityLabel.text = model.nationality
+            birthLabel.text = model.dateOfBirth
         }
-        
     }
-    
 }

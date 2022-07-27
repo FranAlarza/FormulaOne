@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DriversCell: UITableViewCell {
+final class DriversCell: UITableViewCell {
 
     @IBOutlet weak var countryFlag: UIImageView!
     @IBOutlet weak var driverNumber: UILabel!

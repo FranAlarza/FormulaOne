@@ -14,7 +14,7 @@ protocol DriverTableViewModelProtocol {
     var driversCount: Int { get }
 }
 
-class DriversTableViewModel {
+final class DriversTableViewModel {
     
     private weak var viewDelegate: DriverTableProtocol?
     private var networkManager = NetworkManager()

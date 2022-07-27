@@ -42,7 +42,10 @@ class DriversTableController: UIViewController {
 extension DriversTableController: DriverTableProtocol {
     func navigateToDetail(with data: DriversModel?) {
         let nextVC = DetailViewController()
-        nextVC.driversData = data
+        guard let data = data else {
+            return
+        }
+        nextVC.viewModel = DetailViewModel(model: data, viewDelegate: nextVC)
         navigationController?.pushViewController(nextVC, animated: true)
     }
     
